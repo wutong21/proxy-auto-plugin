@@ -1,6 +1,6 @@
 # proxy-auto-plugin
 
-## feature
+## Feature
 Auto switch proxy path by listen Proxy change 
 ## How to use ?
 ```
