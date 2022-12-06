@@ -1,6 +1,6 @@
 {
   "name": "proxy-auto-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Auto switch proxy",
   "main": "index.js",
   "scripts": {
