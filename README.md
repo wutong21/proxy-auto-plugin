@@ -58,6 +58,7 @@ module.exports = {
       '/api': {
         target: 'http://localhost:3101', // auto restart server when target change 
         changeOrigin: true,
+        secure: false, // Wepback 中的 http-porxy 插件，默认情况下，不接受运行在HTTPS上，并且使用了无效证书的后端服务。
       }
     },
   }
