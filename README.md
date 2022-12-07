@@ -46,12 +46,12 @@ module.exports = {
     ]
   },
   devServer: {
-    https: true,
+    https: true, // use https start service need config secure equal false
     proxy: {
       '/api': {
-        target: 'http://localhost:3101', // auto restart server when target change
+        target: 'http://localhost:3000', // auto restart server when target change
         changeOrigin: true,
-        secure: false, // Wepback 中的 http-porxy 插件，默认情况下，不接受运行在HTTPS上，并且使用了无效证书的后端服务。
+        secure: false, // Wepback http-porxy plugin，In default situation, don't accept run in HTTPS , Or need back-end use correct license
       }
     },
   }
