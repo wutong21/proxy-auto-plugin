@@ -1,5 +1,8 @@
 # proxy-auto-plugin
 
+## Tips
+should use in Vue.js project and now only supoort webpack-dev-server@3.x.x and webpack-dev-server@4.x.x
+
 ## Feature
 
 Auto switch proxy path by listen Proxy change
